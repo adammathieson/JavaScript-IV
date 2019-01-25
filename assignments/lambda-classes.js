@@ -44,7 +44,7 @@ class Student extends Person {
         this.grade = stuAttr.grade;
     }
     listsSubjects() {
-        return this.favSubjects;
+        return this.favSubjects.toString();
     }
     PRAssignment(subject) {
         return `${this.name} has submitted a PR for ${subject}`;
@@ -143,9 +143,4 @@ console.log(lemme.sprintChallenge('Javascipt'));
 console.log(terry.standUp('CS14_Terry'));
 console.log(roberta.debugsCode(lemme, 'HTML'));
 console.log(terry.assignGrade(daria));
-console.log(tom.assignGrade(lemme));
-console.log(roberta.assignGrade(daria));
-console.log(clarissa.assignGrade(lemme));
-console.log(terry.assignGrade(daria));
-console.log(tom.assignGrade(lemme));
 console.log(tom.assignGrade(lemme));
